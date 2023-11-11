@@ -20,8 +20,12 @@
 // Full documentation of the client URL (cURL) library: https://www.php.net/manual/en/book.curl.php
 //lab 15
 // STEP 1: Set the API endpoint URL
-$apiUrl = 'http://127.0.0.1:5022/diabetes';
 
+
+
+$apiUrl = 'http://127.0.0.1:5022/diabetes';
+// $response = file_get_contents($apiUrl);
+// echo "Response from Plumber API: " . $response;
 // Initiate a new cURL session/resource
 $curl = curl_init();
 
